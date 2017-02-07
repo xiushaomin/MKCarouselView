@@ -25,5 +25,40 @@
 
 `- (MKCarouselViewCell *)dequeueReusableCellWithIdentifier:(NSString *)indentifier;`
 
+## MKCarouselView
+
+[![CI Status](http://img.shields.io/travis/xiushaomin@gmail.com/MKCarouselView.svg?style=flat)](https://travis-ci.org/xiushaomin@gmail.com/MKCarouselView)
+[![Version](https://img.shields.io/cocoapods/v/MKCarouselView.svg?style=flat)](http://cocoapods.org/pods/MKCarouselView)
+[![License](https://img.shields.io/cocoapods/l/MKCarouselView.svg?style=flat)](http://cocoapods.org/pods/MKCarouselView)
+[![Platform](https://img.shields.io/cocoapods/p/MKCarouselView.svg?style=flat)](http://cocoapods.org/pods/MKCarouselView)
+
+## Example
+
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
+
+## Installation
+
+MKCarouselView is available through [CocoaPods](http://cocoapods.org). To install
+it, simply add the following line to your Podfile:
+
+```ruby
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '8.0'
+use_frameworks!
+
+target '<Your Target Name>' do
+    pod 'MKCarouselView'
+end
+```
+
+## Author
+
+xiushaomin@gmail.com
+
+## License
+
+MKCarouselView is available under the MIT license. See the LICENSE file for more info.
+
+
 
 
