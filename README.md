@@ -1,6 +1,11 @@
-### MKCarouselView
+## MKCarouselView
 
-类似一些网站上的循环轮播广告
+[![CI Status](http://img.shields.io/travis/xiushaomin@gmail.com/MKCarouselView.svg?style=flat)](https://travis-ci.org/xiushaomin@gmail.com/MKCarouselView)
+[![Version](https://img.shields.io/cocoapods/v/MKCarouselView.svg?style=flat)](http://cocoapods.org/pods/MKCarouselView)
+[![License](https://img.shields.io/cocoapods/l/MKCarouselView.svg?style=flat)](http://cocoapods.org/pods/MKCarouselView)
+[![Platform](https://img.shields.io/cocoapods/p/MKCarouselView.svg?style=flat)](http://cocoapods.org/pods/MKCarouselView)
+
+MKCarouselView是一个类似一些网站上的循环轮播广告控件
 
 ![](https://github.com/xiushaomin/MKCarouselView/blob/master/%E8%BD%AE%E6%92%AD%E5%9B%BE.gif)
 
@@ -25,12 +30,6 @@
 
 `- (MKCarouselViewCell *)dequeueReusableCellWithIdentifier:(NSString *)indentifier;`
 
-## MKCarouselView
-
-[![CI Status](http://img.shields.io/travis/xiushaomin@gmail.com/MKCarouselView.svg?style=flat)](https://travis-ci.org/xiushaomin@gmail.com/MKCarouselView)
-[![Version](https://img.shields.io/cocoapods/v/MKCarouselView.svg?style=flat)](http://cocoapods.org/pods/MKCarouselView)
-[![License](https://img.shields.io/cocoapods/l/MKCarouselView.svg?style=flat)](http://cocoapods.org/pods/MKCarouselView)
-[![Platform](https://img.shields.io/cocoapods/p/MKCarouselView.svg?style=flat)](http://cocoapods.org/pods/MKCarouselView)
 
 ## Example
 
