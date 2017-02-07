@@ -32,7 +32,7 @@ CGFloat const kTagDifferenceNums = 9999;
 
 - (void)p_configDefaultValues {
     self.cellScale = 1.f;
-    self.autoScrollTime = 2.f;
+    self.autoScrollTime = 1.f;
     self.contentScrollScale = 1.f;
     self.cellAlpha = 0.5;
     self.isAutoScroll = YES;
@@ -157,7 +157,6 @@ CGFloat const kTagDifferenceNums = 9999;
             _scrollToIndex = offset_index + 1;
         } else {
             _scrollToIndex = offset_index;
-            NSLog(@"%f",offset_index);
         }
         
         [self p_startTimer];
