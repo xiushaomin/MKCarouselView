@@ -17,13 +17,14 @@
         //离屏渲染
         self.layer.cornerRadius = 3.f;
         self.layer.masksToBounds = YES;
+        
+        [self addSubview:self.imageView];
     }
     return self;
 }
 
 - (void)layoutSubviews {
-     [self addSubview:self.imageView];
-      _imageView.frame = self.bounds;
+    _imageView.frame = self.bounds;
 }
 
 - (UIImageView *)imageView {
