@@ -77,7 +77,7 @@ CGFloat const kTagDifferenceNums = 9999;
         }
     }
     
-    [self p_startTimer];
+  //  [self p_startTimer];
     
 }
 
@@ -159,7 +159,7 @@ CGFloat const kTagDifferenceNums = 9999;
             _scrollToIndex = offset_index;
         }
         
-        [self p_startTimer];
+      //  [self p_startTimer];
     }
 
 }

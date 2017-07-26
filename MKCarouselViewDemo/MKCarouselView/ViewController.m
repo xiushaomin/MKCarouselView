@@ -38,6 +38,7 @@
 }
 
 - (MKCarouselViewCell *)carouselView:(MKCarouselView *)carouselView cellForIndex:(NSInteger)index {
+    NSLog(@"%zd",index);
     MKCarouselViewCell *cell = [carouselView dequeueReusableCellWithIdentifier:@"MKCarouselViewCell"];
     if (!cell) {
         cell = [[MKCarouselViewCell alloc] initWithReusableIdentifier:@"MKCarouselViewCell"];
@@ -51,8 +52,7 @@
 }
 
 - (void)carouselView:(MKCarouselView *)carouselView didClickTheCellAtIndex:(NSInteger)index {
-    
-    
+    NSLog(@"zzz");
 }
 
 @end
